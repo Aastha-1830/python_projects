@@ -96,8 +96,6 @@ while True:
         pen.clear()
         pen.write("Score : {} High Score : {} ".format(score, high_score), align="right", font=("arial", 24, "bold"))
         food.goto(random.randint(-300,300),random.randint(-300,300))  
-
-    
        
     for index in range(len(body)-1, 0, -1):
         x = body[index-1].xcor()
